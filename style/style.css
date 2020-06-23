@@ -1,0 +1,560 @@
+/*
+• KLeur: #030303 - h1, h2 etc.
+• Nav-Font color: #515151
+• Donkerblauw: #141e31
+• Nav hover: #bababa
+
+*/
+
+body {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: white;
+    margin: 0;
+}
+
+video {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+h3 .cijfer {
+    color: red;
+}
+
+header {
+    background-color: white;
+}
+
+#index header {
+    background-color: #030303;
+}
+
+.naam {
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+    opacity: 25%;
+}
+
+.naam-merk {
+    display: flex;
+    padding-top: 3em;
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+  animation: move 2s ease, bounce 1s ease;
+}
+
+@keyframes move {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-30px); }
+        100% { transform: translateY(0); }
+    }
+
+.naam-merk-2 {
+    display: flex;
+    padding-top: 3em;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header img {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+#overmij nav {
+    background-color: #F9F9F9;
+}
+
+#overmij nav a:hover {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    transition: 0.5s;
+}
+
+#overmij header .leeuw {
+    width: 400px;
+}
+
+#overmij main .mezelf {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em
+}
+
+#overmij .intro {
+    font-size: 2em;
+    margin-top: 0em;
+    padding-top: 4em;
+    font-weight: 400;
+}
+
+nav a {
+    font-family: 'din';
+    text-decoration: none;
+    color: #515151;
+    /*Strepen onder de linkjes weg te halen*/
+    padding: 1em;
+    width: 100%
+}
+
+nav a:hover {
+    display: flex;
+    justify-content: space-around;
+    color: #bababa;
+    transition: 0.5s;
+}
+
+.nav-twee {
+    padding-top: 0em;
+    background-color: #f2f2f2;
+}
+
+.nav-twee a {
+    color: #999999;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.nav-twee a:hover {
+    color: #666666;
+}
+
+button {
+    display: flex;
+    font-size: 1em;
+    color: grey;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 2em;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding-top: 1em;
+    margin: 1em;
+    margin-bottom: 0em;
+}
+
+.article-tekst {
+    text-align: left;
+    padding-top: 0em;
+    width: 300px;
+    margin: 0em 0.7em;
+}
+
+.section-tekst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0em;
+    margin: 0em;
+}
+
+.section-tekst .article-tekst p {
+    text-align: left;
+    color: #515151;
+    margin: 0em;
+    padding: 0em;
+    width: 300px;
+    padding-top: 1em
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7em;
+    font-weight: 300;
+    padding-top: 1em;
+    margin-bottom: 0.5em;
+    color: #515151;
+}
+
+.intro {
+    font-size: 2em;
+    margin-top: 0em;
+    padding-top: 2em;
+    font-weight: 400;
+}
+
+main p {
+    text-align: center;
+    margin: auto;
+    padding: 1em 10em;
+    text-align: center;
+    color: #515151
+}
+
+/*devices, */
+#projecten main img {
+    width: 900px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projecten .section-tekst {
+    padding-bottom: 3em;
+}
+
+/*huisstijlen*/
+#huisstijlen main img {
+    width: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#huisstijlen .section-tekst {
+    padding-bottom: 6em;
+}
+
+#project section {
+    margin: 2em;
+}
+
+.project-img {
+    width: 500px;
+}
+
+/*ul li {
+    color: white;
+    font-size: 1em;
+    padding: 1.2em;
+    display: inline;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin: 0 2em;
+}*/
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+    margin-bottom: 0em;
+}
+
+nav {
+    background-color: #030303;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.logo-patroon {
+    opacity: 50%;
+    margin: -0.7em;
+    padding: 0em;
+    width: 40px
+}
+
+.logo-patroon:hover {
+    opacity: 100%;
+    transition: 1s;
+    margin: -0.7em;
+    width: 40px;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -1em
+}
+
+article h3 {
+    text-align: center;
+    color: #515151;
+    font-size: 1em;
+    margin-top: 0em;
+    font-weight: 200;
+}
+
+.index-main-img {
+    width: 150px;
+}
+
+section img {
+    padding-top: 1em;
+    display: flex;
+    width: 50px;
+    margin: auto;
+    padding: auto;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+
+section a {
+    text-decoration: none;
+}
+
+
+article {
+    width: 200px;
+    margin: 1em 2em;
+    border-radius: 3px;
+}
+
+article h3 {
+    margin-left: auto;
+    margin-right: auto;
+    color: #bababa;
+    font-weight: 100;
+    font-size: 1em;
+    margin-top: 0em;
+}
+
+.competenties {
+    color: #515151;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+}
+
+
+.comp-tekst {
+    text-align-last: center;
+    padding: 0;
+    color: #bababa;
+}
+
+article h3:hover {
+    color: #515151;
+    transition: 0.7s;
+}
+
+.projecten-icoon {
+    width: 150px;
+    padding-top: 0em;
+}
+
+section img {
+    padding-top: 3em;
+    display: flex;
+    width: 100px;
+    margin: auto;
+}
+
+
+.xs {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+
+
+}
+
+footer p {
+    text-align: center;
+    color: #515151;
+    margin: 0em;
+}
+
+footer {
+    background-color: #F9F9F9;
+}
+
+footer section img {
+    width: 20px;
+    padding-top: 0em;
+}
+
+footer section {
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+footer section img {
+    width: 50px;
+}
+
+footer section {
+    padding-top: 0em;
+    padding-bottom: 2em;
+}
+
+footer article {
+    padding-top: 1em;
+}
+
+main article h3 {
+    padding-top: 0em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-top: 1em;
+    margin-bottom: 0em;
+    color: #515151;
+}
+
+.banner-klein {
+    width: 150px;
+    padding: 4em;
+    opacity: 50%;
+    animation: opacity 1s ease;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+span {
+    font-size: 1m;
+    color: lightgray;
+    margin-left: 0.3em;
+}
+
+#creatures main,
+#creatures header {
+    background-color: black;
+    transition: 5s;
+}
+
+#creatures main {
+    transition: 5s;
+    margin-top: 0em;
+}
+
+#creatures .naam-merk {
+    width: 80px;
+}
+
+#creatures main img {
+    background-color: black;
+    width: 700px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    animation: opacity 10s;
+}
+
+@keyframes opacity {
+
+    0% {
+        opacity: 0%
+    }
+
+    50% {
+        opacity: 0%
+    }
+
+    100% {
+        opacity: 100%
+    }
+
+}
+
+#creatures .intro {
+    transition: 5s;
+    color: white;
+}
+
+#creatures .nav-twee,
+#creatures footer {
+    background-color: #111111;
+    transition: 5s;
+}
+
+#creatures .pingu {
+    width: 800px;
+    transform: rotate(90deg);
+}
+
+
+@media(max-width: 40em) {
+    .section-tekst {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5em
+    }
+
+    .article-tekst {
+        text-align: left;
+        padding-top: 0em;
+        width: 300px;
+        margin: 0em 0.7em;
+    }
+
+    .section-tekst .article-tekst p {
+        text-align: left;
+        color: #515151;
+        margin: 0em;
+        padding: 0em;
+        width: 300px;
+        padding-top: 1em
+    }
+
+}
+
+@media(min-width: 70em) {
+
+    .section-tekst {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0em;
+        margin: 0em;
+    }
+
+}
+
+@media(min-width: 100em) {
+
+    .section-tekst {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0em;
+        margin: 0em;
+    }
+
+}
